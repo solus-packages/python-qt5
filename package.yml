@@ -1,20 +1,26 @@
 name       : python-qt5
-version    : 4.11.4
-release    : 2
+version    : 5.5
+release    : 3
 source     :
-    - http://downloads.sourceforge.net/project/pyqt/PyQt4/PyQt-4.11.4/PyQt-x11-gpl-4.11.4.tar.gz : fc1fe77495432ba3b0d74ff5cb164d375a97f5dddb728256330f615a7cdcf407
+    - http://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.5/PyQt-gpl-5.5.tar.gz : cdd1bb55b431acdb50e9210af135428a13fb32d7b1ab86e972ac7101f6acd814
 license    : GPL-3.0
 summary    : python-qt5 are the python2 bindings for Qt5.
 description: |
     python-qt5 are the python2 bindings for Qt5.
 builddeps  :
     - pkgconfig(dbus-python)
+    - pkgconfig(gl)
     - pkgconfig(python-2.7)
-    - pkgconfig(Qt5Core)
+    - pkgconfig(Qt5Gui)
     - python-sip-devel
+rundeps:
+    - python-sip
 setup      : |
-    python2 configure-ng.py --confirm-license --no-sip-files --qsci-api -q /usr/bin/qmake
+    python2 configure.py --confirm-license --no-sip-files --qsci-api -q /usr/bin/qmake
 build      : |
     %make
 install    : |
     %make_install INSTALL_ROOT="$installdir"
+    install -d $installdir/usr/share/sip/PyQt5
+    cp -r sip/* $installdir/usr/share/sip/PyQt5
+    mv $installdir/usr/bin/{,python2-}pyuic5

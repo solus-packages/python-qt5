@@ -17,16 +17,21 @@
         <Description xml:lang="en">python-qt5 are the python2 bindings for Qt5.
 </Description>
         <PartOf>programming.python</PartOf>
+        <RuntimeDependencies>
+            <Dependency>python-sip</Dependency>
+        </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/share/qt5</Path>
+            <Path fileType="data">/usr/share/sip</Path>
             <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/qt5</Path>
             <Path fileType="library">/usr/lib/python2.7</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2015-09-14</Date>
-            <Version>4.11.4</Version>
+        <Update release="3">
+            <Date>2015-09-19</Date>
+            <Version>5.5</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua.strobl@outlook.com</Email>
