@@ -1,6 +1,6 @@
 name       : python-qt5
 version    : 5.5
-release    : 6
+release    : 7
 source     :
     - http://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.5/PyQt-gpl-5.5.tar.gz : cdd1bb55b431acdb50e9210af135428a13fb32d7b1ab86e972ac7101f6acd814
 license    : GPL-3.0
@@ -12,6 +12,7 @@ builddeps  :
     - pkgconfig(gl)
     - pkgconfig(python-2.7)
     - pkgconfig(Qt5Gui)
+    - pkgconfig(Qt5WebKit)
     - python-sip-devel
 rundeps    :
     - python-sip
