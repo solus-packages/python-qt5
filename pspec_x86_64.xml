@@ -2,8 +2,8 @@
     <Source>
         <Name>python-qt5</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>programming.python</PartOf>
@@ -20,7 +20,6 @@
         <PartOf>programming.python</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/Enginio.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/Qt.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/QtBluetooth.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/QtCore.so</Path>
@@ -94,8 +93,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/widget-plugins/qtquickwidgets.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/widget-plugins/qtwebkit.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/dbus/mainloop/pyqt5.so</Path>
-            <Path fileType="library">/usr/lib/qt5/plugins/PyQt5/libpyqt5qmlplugin.so</Path>
-            <Path fileType="library">/usr/lib/qt5/plugins/designer/libpyqt5.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/PyQt5/libpyqt5qmlplugin.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/designer/libpyqt5.so</Path>
             <Path fileType="data">/usr/share/qt5/qsci/api/python/PyQt5.api</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/Enginio/Enginiomod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/Enginio/enginio.sip</Path>
@@ -851,12 +850,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2016-08-07</Date>
+        <Update release="9">
+            <Date>2016-12-03</Date>
             <Version>5.5</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
         </Update>
     </History>
 </PISI>
