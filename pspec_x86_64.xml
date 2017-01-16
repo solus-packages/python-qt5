@@ -2,8 +2,8 @@
     <Source>
         <Name>python-qt5</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>sunnyflunk@gmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>programming.python</PartOf>
@@ -55,6 +55,10 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/_QOpenGLFunctions_2_1.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/_QOpenGLFunctions_4_1_Core.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/pylupdate.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/pylupdate_main.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/pyrcc.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/pyrcc_main.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/Compiler/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/Compiler/compiler.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/Compiler/indenter.py</Path>
@@ -73,15 +77,11 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v2/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v2/as_string.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v2/ascii_upper.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v2/invoke.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v2/load_plugin.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v2/proxy_base.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v2/string_io.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v3/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v3/as_string.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v3/ascii_upper.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v3/invoke.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v3/load_plugin.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v3/proxy_base.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/port_v3/string_io.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/properties.py</Path>
@@ -89,8 +89,10 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/uiparser.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/widget-plugins/qaxcontainer.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/widget-plugins/qscintilla.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/widget-plugins/qtcharts.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/widget-plugins/qtprintsupport.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/widget-plugins/qtquickwidgets.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/widget-plugins/qtwebenginewidgets.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/uic/widget-plugins/qtwebkit.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/dbus/mainloop/pyqt5.so</Path>
             <Path fileType="library">/usr/lib64/qt5/plugins/PyQt5/libpyqt5qmlplugin.so</Path>
@@ -124,10 +126,16 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qbluetoothtransferreply.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qbluetoothtransferrequest.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qbluetoothuuid.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergyadvertisingdata.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergyadvertisingparameters.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergycharacteristic.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergycharacteristicdata.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergyconnectionparameters.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergycontroller.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergydescriptor.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergydescriptordata.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergyservice.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qlowenergyservicedata.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qpybluetooth_qlist.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qpybluetooth_quint128.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/QtCoremod.sip</Path>
@@ -247,6 +255,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/quuid.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qvariant.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qvariantanimation.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qversionnumber.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qwaitcondition.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qwineventnotifier.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qxmlstream.sip</Path>
@@ -356,6 +365,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qrawfont.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qregion.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qrgb.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qrgba64.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qscreen.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qsessionmanager.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qstandarditemmodel.sip</Path>
@@ -434,6 +444,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtMacExtras/qmacpasteboardmime.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMacExtras/qmactoolbar.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMacExtras/qmactoolbaritem.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMacExtras/qtmac.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/QtMultimediamod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qabstractvideobuffer.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qabstractvideofilter.sip</Path>
@@ -652,9 +663,20 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebChannel/QtWebChannelmod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebChannel/qwebchannel.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebChannel/qwebchannelabstracttransport.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngine/QtWebEnginemod.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngine/qquickwebengineprofile.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngine/qtwebengineglobal.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/QtWebEngineCoremod.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebenginecookiestore.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebengineurlrequestinfo.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebengineurlrequestinterceptor.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebengineurlrequestjob.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebengineurlschemehandler.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineWidgets/QtWebEngineWidgetsmod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineWidgets/qwebenginecertificateerror.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineWidgets/qwebenginecontextmenudata.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineWidgets/qwebenginedownloaditem.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineWidgets/qwebenginefullscreenrequest.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineWidgets/qwebenginehistory.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineWidgets/qwebenginepage.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineWidgets/qwebengineprofile.sip</Path>
@@ -845,17 +867,21 @@
             <Path fileType="data">/usr/share/sip/PyQt5/_QOpenGLFunctions_4_1_Core/qopenglfunctions_4_1_core.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/_QOpenGLFunctions_ES2/_QOpenGLFunctions_ES2mod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/_QOpenGLFunctions_ES2/qopenglfunctions_es2.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/pylupdate/pylupdate_main.py</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/pylupdate/pylupdatemod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/pyqt-gpl.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/pyqt-gpl.sip5</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/pyrcc/pyrcc_main.py</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/pyrcc/pyrccmod.sip</Path>
         </Files>
     </Package>
     <History>
-        <Update release="9">
+        <Update release="10">
             <Date>2016-12-03</Date>
-            <Version>5.5</Version>
+            <Version>5.7.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>sunnyflunk@gmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
