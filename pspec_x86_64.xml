@@ -2,8 +2,8 @@
     <Source>
         <Name>python-qt5</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>programming.python</PartOf>
@@ -161,6 +161,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcryptographichash.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qdatastream.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qdatetime.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qdeadlinetimer.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qdir.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qdiriterator.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qeasingcurve.sip</Path>
@@ -337,6 +338,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qopenglpixeltransferoptions.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qopenglshaderprogram.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qopengltexture.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qopengltextureblitter.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qopengltimerquery.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qopenglversionfunctions.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qopenglvertexarrayobject.sip</Path>
@@ -505,6 +507,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworkconfiguration.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworkcookie.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworkcookiejar.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworkdatagram.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworkdiskcache.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworkinterface.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworkproxy.sip</Path>
@@ -518,6 +521,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qsslcertificateextension.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qsslcipher.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qsslconfiguration.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qssldiffiehellmanparameters.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qsslellipticcurve.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qsslerror.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qsslkey.sip</Path>
@@ -602,8 +606,12 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgengine.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgflatcolormaterial.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsggeometry.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgimagenode.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgmaterial.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgnode.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgrectanglenode.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgrendererinterface.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgrendernode.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgsimplerectnode.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgsimpletexturenode.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgtexture.sip</Path>
@@ -648,6 +656,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtSql/qsqlrelationaltablemodel.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSql/qsqlresult.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSql/qsqltablemodel.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtSql/qtsqlglobal.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSvg/QtSvgmod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSvg/qgraphicssvgitem.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSvg/qsvggenerator.sip</Path>
@@ -876,12 +885,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2016-12-03</Date>
-            <Version>5.7.1</Version>
+        <Update release="11">
+            <Date>2017-05-27</Date>
+            <Version>5.8.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
