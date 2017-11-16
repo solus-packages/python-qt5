@@ -2,8 +2,8 @@
     <Source>
         <Name>python-qt5</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>programming.python</PartOf>
@@ -205,6 +205,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qobject.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qobjectcleanuphandler.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qobjectdefs.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qoperatingsystemversion.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qparallelanimationgroup.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpauseanimation.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpluginloader.sip</Path>
@@ -502,6 +503,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qdnslookup.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qhostaddress.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qhostinfo.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qhstspolicy.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qhttpmultipart.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qlocalserver.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qlocalsocket.sip</Path>
@@ -554,6 +556,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeocircle.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeocoordinate.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeolocation.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeopath.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeopositioninfo.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeopositioninfosource.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeorectangle.sip</Path>
@@ -632,7 +635,9 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtSensors/qdistancesensor.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSensors/qgyroscope.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSensors/qholstersensor.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtSensors/qhumiditysensor.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSensors/qirproximitysensor.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtSensors/qlidsensor.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSensors/qlightsensor.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSensors/qmagnetometer.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtSensors/qorientationsensor.sip</Path>
@@ -677,9 +682,11 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebChannel/qwebchannelabstracttransport.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngine/QtWebEnginemod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngine/qquickwebengineprofile.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngine/qquickwebenginescript.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngine/qtwebengineglobal.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/QtWebEngineCoremod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebenginecookiestore.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebenginehttprequest.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebengineurlrequestinfo.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebengineurlrequestinterceptor.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebEngineCore/qwebengineurlrequestjob.sip</Path>
@@ -888,12 +895,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="12">
-            <Date>2017-07-05</Date>
-            <Version>5.8.2</Version>
+        <Update release="14">
+            <Date>2017-11-16</Date>
+            <Version>5.9.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>

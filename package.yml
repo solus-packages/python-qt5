@@ -1,8 +1,8 @@
 name       : python-qt5
-version    : 5.8.2
-release    : 13
+version    : 5.9.1
+release    : 14
 source     :
-    - https://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.8.2/PyQt5_gpl-5.8.2.tar.gz : ebd70515b30bbd6098fee29e6271a6696b1183c5530ee30e6ba9aaab195536e8
+    - https://netcologne.dl.sourceforge.net/project/pyqt/PyQt5/PyQt-5.9.1/PyQt5_gpl-5.9.1.tar.gz : 5fc009448ea78c8fd48eb7083a7b93734dbd61290a9a21dab674096a7762b4ca
 license    : GPL-3.0
 component  : programming.python
 summary    : python-qt5 are the python2 bindings for Qt5.
@@ -11,7 +11,6 @@ description: |
 builddeps  :
     - pkgconfig(dbus-python)
     - pkgconfig(gl)
-    - pkgconfig(python-2.7)
     - pkgconfig(Qt5Bluetooth)
     - pkgconfig(Qt5Help)
     - pkgconfig(Qt5Multimedia)
@@ -28,7 +27,13 @@ builddeps  :
 rundeps    :
     - python-sip
 setup      : |
-    python2 configure.py --confirm-license --no-sip-files --qsci-api -q /usr/bin/qmake
+    python2 configure.py --confirm-license \
+        --no-sip-files \
+        --qsci-api \
+        -q /usr/bin/qmake \
+        QMAKE_CFLAGS_RELEASE="$CFLAGS" \
+        QMAKE_CXXFLAGS_RELEASE="$CXXFLAGS" \
+        QMAKE_LFLAGS_RELEASE="$LDFLAGS"
 build      : |
     %make
 install    : |
