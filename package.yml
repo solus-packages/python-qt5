@@ -1,8 +1,8 @@
 name       : python-qt5
-version    : 5.9.1
-release    : 15
+version    : '5.10'
+release    : 16
 source     :
-    - https://netcologne.dl.sourceforge.net/project/pyqt/PyQt5/PyQt-5.9.1/PyQt5_gpl-5.9.1.tar.gz : 5fc009448ea78c8fd48eb7083a7b93734dbd61290a9a21dab674096a7762b4ca
+    - https://netcologne.dl.sourceforge.net/project/pyqt/PyQt5/PyQt-5.10/PyQt5_gpl-5.10.tar.gz : 342fe6675df8ba9fabb3f3cc5d79ebc24714cd9bd1a3b5c8ab5dba7596f15f50
 license    : GPL-3.0
 component  : programming.python
 summary    : python-qt5 are the python2 bindings for Qt5.
@@ -27,6 +27,9 @@ builddeps  :
 rundeps    :
     - python-sip
 setup      : |
+    # support newer Qt5 releases
+    %patch -p1 < $pkgfiles/PyQt5-Timeline.patch
+
     python2 configure.py --confirm-license \
         --no-sip-files \
         --qsci-api \

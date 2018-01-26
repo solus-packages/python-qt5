@@ -114,6 +114,9 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QAxContainer/qaxobject.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QAxContainer/qaxwidget.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/Qt/Qtmod.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtAndroidExtras/QtAndroidExtrasmod.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtAndroidExtras/qandroidjniobject.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtAndroidExtras/qtandroid.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/QtBluetoothmod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qbluetooth.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtBluetooth/qbluetoothaddress.sip</Path>
@@ -219,6 +222,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpycore_qset.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpycore_qvector.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpycore_virtual_error_handler.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qrandom.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qreadwritelock.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qrect.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qregexp.sip</Path>
@@ -535,6 +539,15 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qtcpserver.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qtcpsocket.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qudpsocket.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetworkAuth/QtNetworkAuthmod.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetworkAuth/qabstractoauth.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetworkAuth/qabstractoauth2.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetworkAuth/qabstractoauthreplyhandler.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetworkAuth/qoauth1.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetworkAuth/qoauth1signature.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetworkAuth/qoauth2authorizationcodeflow.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetworkAuth/qoauthhttpserverreplyhandler.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetworkAuth/qoauthoobreplyhandler.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNfc/QtNfcmod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNfc/qndeffilter.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNfc/qndefmessage.sip</Path>
@@ -557,6 +570,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeocoordinate.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeolocation.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeopath.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeopolygon.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeopositioninfo.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeopositioninfosource.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtPositioning/qgeorectangle.sip</Path>
@@ -895,9 +909,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="14">
-            <Date>2017-11-16</Date>
-            <Version>5.9.1</Version>
+        <Update release="16">
+            <Date>2018-02-01</Date>
+            <Version>5.10</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
             <Email>pyu@riseup.net</Email>
