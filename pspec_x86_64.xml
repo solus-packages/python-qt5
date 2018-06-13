@@ -595,6 +595,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtQml/qmlattachedpropertiesobject.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQml/qmlregistertype.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQml/qpyqmllistproperty.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQml/qqml.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQml/qqmlabstracturlinterceptor.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQml/qqmlapplicationengine.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQml/qqmlcomponent.sip</Path>
@@ -909,9 +910,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="18">
-            <Date>2018-03-23</Date>
-            <Version>5.10</Version>
+        <Update release="19">
+            <Date>2018-06-13</Date>
+            <Version>5.10.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Peter O&apos;Connor</Name>
             <Email>peter@solus-project.com</Email>
