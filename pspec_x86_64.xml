@@ -22,9 +22,9 @@
             <Path fileType="executable">/usr/bin/pylupdate5</Path>
             <Path fileType="executable">/usr/bin/pyrcc5</Path>
             <Path fileType="executable">/usr/bin/python2-pyuic5</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.12.2.dist-info/INSTALLER</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.12.2.dist-info/METADATA</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.12.2.dist-info/RECORD</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.13.0.dist-info/INSTALLER</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.13.0.dist-info/METADATA</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.13.0.dist-info/RECORD</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/Qt.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/QtBluetooth.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/QtCore.so</Path>
@@ -163,6 +163,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcollator.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcommandlineoption.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcommandlineparser.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qconcatenatetablesproxymodel.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcoreapplication.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcoreevent.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcryptographichash.sip</Path>
@@ -262,6 +263,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qtimer.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qtimezone.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qtranslator.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qtransposeproxymodel.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qurl.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qurlquery.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/quuid.sip</Path>
@@ -406,9 +408,12 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qwindow.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qwindowdefs.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/QtHelpmod.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qcompressedhelpinfo.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpcontentwidget.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpengine.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpenginecore.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpfilterdata.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpfilterengine.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpindexwidget.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpsearchengine.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpsearchquerywidget.sip</Path>
@@ -526,6 +531,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworkreply.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworkrequest.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qnetworksession.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qocspresponse.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qpassworddigestor.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qpynetwork_qhash.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qpynetwork_qmap.sip</Path>
@@ -899,9 +905,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="27">
-            <Date>2019-05-07</Date>
-            <Version>5.12.2</Version>
+        <Update release="28">
+            <Date>2019-07-07</Date>
+            <Version>5.13.0</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
             <Email>flinux@vongellhorn.ch</Email>
