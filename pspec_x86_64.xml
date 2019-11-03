@@ -2,19 +2,19 @@
     <Source>
         <Name>python-qt5</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>programming.python</PartOf>
-        <Summary xml:lang="en">python-qt5 are the python2 bindings for Qt5.</Summary>
+        <Summary xml:lang="en">python-qt5 are the python2 bindings for Qt5</Summary>
         <Description xml:lang="en">python-qt5 are the python2 bindings for Qt5.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-qt5</Name>
-        <Summary xml:lang="en">python-qt5 are the python2 bindings for Qt5.</Summary>
+        <Summary xml:lang="en">python-qt5 are the python2 bindings for Qt5</Summary>
         <Description xml:lang="en">python-qt5 are the python2 bindings for Qt5.
 </Description>
         <PartOf>programming.python</PartOf>
@@ -906,12 +906,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="30">
-            <Date>2019-10-05</Date>
+        <Update release="31">
+            <Date>2019-11-03</Date>
             <Version>5.13.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
