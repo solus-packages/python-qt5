@@ -1,8 +1,8 @@
 name       : python-qt5
-version    : 5.13.2
-release    : 32
+version    : 5.14.2
+release    : 33
 source     :
-    - https://www.riverbankcomputing.com/static/Downloads/PyQt5/5.13.2/PyQt5-5.13.2.tar.gz : adc17c077bf233987b8e43ada87d1e0deca9bd71a13e5fd5fc377482ed69c827
+    - https://pypi.python.org/packages/source/P/PyQt5/PyQt5-5.14.2.tar.gz : bd230c6fd699eabf1ceb51e13a8b79b74c00a80272c622427b80141a22269eb0
 license    : GPL-3.0-or-later
 component  : programming.python
 summary    : python-qt5 are the python2 bindings for Qt5
@@ -20,6 +20,7 @@ builddeps  :
     - pkgconfig(Qt5WebSockets)
     - pkgconfig(Qt5X11Extras)
     - pkgconfig(Qt5XmlPatterns)
+    - pkgconfig(x11)
     - pkgconfig(dbus-python)
     - python-enum34
     - python-sip-devel

@@ -22,9 +22,9 @@
             <Path fileType="executable">/usr/bin/pylupdate5</Path>
             <Path fileType="executable">/usr/bin/pyrcc5</Path>
             <Path fileType="executable">/usr/bin/python2-pyuic5</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.13.2.dist-info/INSTALLER</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.13.2.dist-info/METADATA</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.13.2.dist-info/RECORD</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.14.2.dist-info/INSTALLER</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.14.2.dist-info/METADATA</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.14.2.dist-info/RECORD</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/Qt.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/QtBluetooth.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/QtCore.so</Path>
@@ -157,6 +157,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qbuffer.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qbytearray.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qbytearraymatcher.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcalendar.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcborcommon.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qcborstream.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qchar.sip</Path>
@@ -218,7 +219,6 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpoint.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qprocess.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpropertyanimation.sip</Path>
-            <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpycore_onexit.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpycore_qhash.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpycore_qlist.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtCore/qpycore_qmap.sip</Path>
@@ -322,6 +322,8 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qbrush.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qclipboard.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qcolor.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qcolorspace.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qcolortransform.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qcursor.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qdesktopservices.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtGui/qdrag.sip</Path>
@@ -517,6 +519,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qhostaddress.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qhostinfo.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qhstspolicy.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qhttp2configuration.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qhttpmultipart.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qlocalserver.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qlocalsocket.sip</Path>
@@ -640,6 +643,7 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsggeometry.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgimagenode.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgmaterial.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgmaterialrhishader.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgnode.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgrectanglenode.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgrendererinterface.sip</Path>
@@ -906,9 +910,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="32">
-            <Date>2019-11-04</Date>
-            <Version>5.13.2</Version>
+        <Update release="33">
+            <Date>2020-06-27</Date>
+            <Version>5.14.2</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
             <Email>flinux@vongellhorn.ch</Email>
