@@ -22,9 +22,9 @@
             <Path fileType="executable">/usr/bin/pylupdate5</Path>
             <Path fileType="executable">/usr/bin/pyrcc5</Path>
             <Path fileType="executable">/usr/bin/python2-pyuic5</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.14.2.dist-info/INSTALLER</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.14.2.dist-info/METADATA</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.14.2.dist-info/RECORD</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.15.1.dist-info/INSTALLER</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.15.1.dist-info/METADATA</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5-5.15.1.dist-info/RECORD</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/Qt.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/QtBluetooth.so</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/PyQt5/QtCore.so</Path>
@@ -417,7 +417,9 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpenginecore.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpfilterdata.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpfilterengine.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpfiltersettingswidget.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpindexwidget.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelplink.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpsearchengine.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpsearchquerywidget.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtHelp/qhelpsearchresultwidget.sip</Path>
@@ -473,44 +475,82 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudio.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudiobuffer.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudiodecoder.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudiodecodercontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudiodeviceinfo.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudioencodersettingscontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudioformat.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudioinput.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudioinputselectorcontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudiooutput.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudiooutputselectorcontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudioprobe.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudiorecorder.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qaudiorolecontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcamera.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameracapturebufferformatcontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameracapturedestinationcontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameracontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameraexposure.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameraexposurecontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcamerafeedbackcontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameraflashcontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcamerafocus.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcamerafocuscontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameraimagecapture.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameraimagecapturecontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameraimageprocessing.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameraimageprocessingcontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcamerainfo.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcamerainfocontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameralockscontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameraviewfindersettings.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcameraviewfindersettingscontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcamerazoomcontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qcustomaudiorolecontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qimageencodercontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediaaudioprobecontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediaavailabilitycontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediabindableinterface.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediacontainercontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediacontent.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediacontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediaencodersettings.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediagaplessplaybackcontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediametadata.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmedianetworkaccesscontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediaobject.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediaplayer.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediaplayercontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediaplaylist.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediarecorder.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediarecordercontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediaresource.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediaservice.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediastreamscontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediatimerange.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmediavideoprobecontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmetadatareadercontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmetadatawritercontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qmultimedia.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qpymultimedia_qlist.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qradiodata.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qradiodatacontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qradiotuner.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qradiotunercontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qsound.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qsoundeffect.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qvideodeviceselectorcontrol.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qvideoencodersettingscontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qvideoframe.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qvideoprobe.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qvideorenderercontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qvideosurfaceformat.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimedia/qvideowindowcontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimediaWidgets/QtMultimediaWidgetsmod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimediaWidgets/qcameraviewfinder.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimediaWidgets/qgraphicsvideoitem.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtMultimediaWidgets/qvideowidget.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtMultimediaWidgets/qvideowidgetcontrol.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/QtNetworkmod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qabstractnetworkcache.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtNetwork/qabstractsocket.sip</Path>
@@ -654,6 +694,10 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgtexturematerial.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgtextureprovider.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuick/qsgvertexcolormaterial.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQuick3D/QtQuick3Dmod.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQuick3D/qquick3d.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQuick3D/qquick3dgeometry.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtQuick3D/qquick3dobject.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuickWidgets/QtQuickWidgetsmod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtQuickWidgets/qquickwidget.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtRemoteObjects/QtRemoteObjectsmod.sip</Path>
@@ -715,6 +759,9 @@
             <Path fileType="data">/usr/share/sip/PyQt5/QtTest/qtestmouse.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtTest/qtestsystem.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtTest/qtesttouch.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtTextToSpeech/QtTextToSpeechmod.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtTextToSpeech/qtexttospeech.sip</Path>
+            <Path fileType="data">/usr/share/sip/PyQt5/QtTextToSpeech/qvoice.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebChannel/QtWebChannelmod.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebChannel/qwebchannel.sip</Path>
             <Path fileType="data">/usr/share/sip/PyQt5/QtWebChannel/qwebchannelabstracttransport.sip</Path>
@@ -910,9 +957,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="33">
-            <Date>2020-06-27</Date>
-            <Version>5.14.2</Version>
+        <Update release="34">
+            <Date>2020-10-23</Date>
+            <Version>5.15.1</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
             <Email>flinux@vongellhorn.ch</Email>
